@@ -2,11 +2,20 @@
 
 Control your hue lights with meteorjs.
 
+See http://www.developers.meethue.com/documentation/getting-started for details about hue.
+
 ## Installation
 
 ```bash
 meteor add fnordian:hue
 ```
+
+## Usage
+
+* Instanciate Hue with the bridge ip and username.
+* Call setLight(light, state), to set the state of a specific light.
+** light: number of your light
+** state: state data, as documented at http://www.developers.meethue.com/documentation/getting-started
 
 ## Sample
 
